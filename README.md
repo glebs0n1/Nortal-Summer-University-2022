@@ -9,9 +9,25 @@ You’re a curious traveler who found a strange species of these little birds. W
 a rectangular shape.<br> It moves in a strange, but beautiful and organized way. You notice the patterns and
 understand that it’s a game! As a passionate developer, you start to think about the algorithm that is happening
 here. You decide to calculate how long this ‘dance’ will last.<br>
-<h4>Setup</h4>
-On Windows, execute './gradlew build'. On Linux execute 'gradlew build'. You can also use your own locally
-installed Gradle, but it might result in mismatching the Gradle project root folder. Alternatively, skip these
-previous steps by installing a smart IDE, like IntelliJ IDEA, which automates it.
-Assignment
-Read the game map from the TXT file and count the number of game iterations until the game is blocked.
+<h4>Game Rules</h4>
+• The map consists of squares stored in a TXT file (see src/main/resources/ hummingbird_map.txt).
+• The map is always rectangular-shaped of size M x N.
+• 0 < M <= 100,000
+• 0 < N <= 100,000
+• Only one bird occupies one square of the rectangular grid at one point in time.
+• There are empty squares (.) . Existing squares that are not occupied by a hummingbird.
+• There are gaps in the map (x). Non-existent squares/holes in the map.
+• There are two types of hummingbirds. Ones moving right (>) and ones moving down (v).
+• Each bird moves in straight lines (one direction) only.
+• When crossing the border of the playground, the hummingbird gets straight to the other end of the
+current position. (You can hardly even notice it; They are so quick!).
+• Right-facing birds move first. They first evaluate if the next square is empty and then move
+simultaneously,
+• Down-facing birds move second. They first evaluate if the next square is empty and then move
+simultaneously,
+• If the birds never stop moving, print the number of iterations, when you see the first repetitive
+composition. Previously seen arrangement of birds on the ‘game board‘.
+Other Requirements
+• The application should not be communicating with the console
+• You can’t make any changes in the HummingbirdGame.java file
+  
