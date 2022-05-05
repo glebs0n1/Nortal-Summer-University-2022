@@ -17,7 +17,7 @@ here. You decide to calculate how long this ‘dance’ will last.<br>
 • Only one bird occupies one square of the rectangular grid at one point in time.
 • There are empty squares (.) Existing squares that are not occupied by a hummingbird.<br>.
 • There are gaps in the map (x).Non-existent squares/holes in the map.<br> 
-• There are two types of hummingbirds. Ones moving right (>)<br> and ones moving down (v).<br> 
+• There are two types of hummingbirds. Ones moving right (>) and ones moving down (v).<br> 
 • Each bird moves in straight lines (one direction) only.<br>
 • When crossing the border of the playground, the hummingbird gets straight to the other end of the
 current position. (You can hardly even notice it; They are so quick!).
