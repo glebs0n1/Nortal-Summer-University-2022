@@ -1,5 +1,8 @@
 #SUMMER UNIVERSITY 2022
 
+Haven't started doing it yet, but have a few of questions about the assignment?<br> 
+Is it simple dynamic programming or something like a grid (M x N) to find the path to the target? 
+
 ##JAVA EXERCISE
 
 And the challenge begins.
