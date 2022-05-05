@@ -13,12 +13,12 @@ here. You decide to calculate how long this ‘dance’ will last.<br>
 • The map consists of squares stored in a TXT file (see src/main/resources/ hummingbird_map.txt).
 • The map is always rectangular-shaped of size M x N.
 • 0 < M <= 100,000
-• 0 < N <= 100,000
-• Only one bird occupies one square of the rectangular grid at one point in time.
+• 0 < N <= 100,000<br>
+• Only one bird occupies one square of the rectangular grid at one point in time.<br>
 • There are empty squares (.) . Existing squares that are not occupied by a hummingbird.
 • There are gaps in the map (x). Non-existent squares/holes in the map.
 • There are two types of hummingbirds. Ones moving right (>) and ones moving down (v).
-• Each bird moves in straight lines (one direction) only.
+• Each bird moves in straight lines (one direction) only.<br>
 • When crossing the border of the playground, the hummingbird gets straight to the other end of the
 current position. (You can hardly even notice it; They are so quick!).
 • Right-facing birds move first. They first evaluate if the next square is empty and then move
