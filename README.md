@@ -10,10 +10,10 @@ a rectangular shape.<br> It moves in a strange, but beautiful and organized way.
 understand that it’s a game! As a passionate developer, you start to think about the algorithm that is happening
 here. You decide to calculate how long this ‘dance’ will last.<br>
 <h4> Game Rules </h4>
-• The map consists of squares stored in a TXT file (see src/main/resources/ hummingbird_map.txt).
-• The map is always rectangular-shaped of size M x N.<br>
-• 0 < M <= 100,000
-• 0 < N <= 100,000 <br>
+ The map consists of squares stored in a TXT file (see src/main/resources/ hummingbird_map.txt).
+ The map is always rectangular-shaped of size M x N.<br>
+ 0 < M <= 100,000<br>
+ 0 < N <= 100,000 <br>
 • Only one bird occupies one square of the rectangular grid at one point in time.
 • There are empty squares (.) Existing squares that are not occupied by a hummingbird.<br>.
 • There are gaps in the map (x).Non-existent squares/holes in the map.<br> 
@@ -28,6 +28,6 @@ simultaneously,
 <br> If the birds never stop moving, print the number of iterations, when you see the first repetitive
 composition. Previously seen arrangement of birds on the ‘game board‘.
 Other Requirements
-• The application should not be communicating with the console
-• You can’t make any changes in the HummingbirdGame.java file
+ The application should not be communicating with the console
+ You can’t make any changes in the HummingbirdGame.java file
   
