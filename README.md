@@ -2,16 +2,16 @@
 
 Welcome to Nortal Summer University 2022 Q/A thread. <BR> 
   
-<h4>Hummingbird Travel</H4>
+<h4> Hummingbird Travel </H4>
 Hummingbirds are tiny birds that can travel about 2200 kilometers without having to stop. It’s about 29 million
 times the length of their body.<br> Meanwhile, the marathon-trained developer has a ratio of around 25 thousand.<br>
 You’re a curious traveler who found a strange species of these little birds. When gathered, they seem to form
 a rectangular shape.<br> It moves in a strange, but beautiful and organized way. You notice the patterns and
 understand that it’s a game! As a passionate developer, you start to think about the algorithm that is happening
 here. You decide to calculate how long this ‘dance’ will last.<br>
-<h4>Game Rules</h4>
+<h4> Game Rules </h4>
 • The map consists of squares stored in a TXT file (see src/main/resources/ hummingbird_map.txt).
-• The map is always rectangular-shaped of size M x N.
+• The map is always rectangular-shaped of size M x N.<br>
 • 0 < M <= 100,000
 • 0 < N <= 100,000 <br>
 • Only one bird occupies one square of the rectangular grid at one point in time.
