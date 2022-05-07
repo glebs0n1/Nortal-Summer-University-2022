@@ -1,7 +1,9 @@
 #SUMMER UNIVERSITY 2022
+First DAY 
+-> Haven't started do it yet, but have a few of questions about the assignment?<br> 
+The second day
+-> probably, I completed the task, it sorts and compiles the elements, but I feel that my programm looks like s*it code and the output is wrong :( <br>, if I will have time today, i will work today
 
-Haven't started doing it yet, but have a few of questions about the assignment?<br> 
-Is it simple dynamic programming or something like a grid (M x N) to find the path to the target? 
 
 ##JAVA EXERCISE
 
