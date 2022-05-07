@@ -3,7 +3,7 @@
 -> Haven't started do it yet, but have a few of questions about the assignment?<br> 
 
 <h4 >The second day</h4>
--> Probably, I completed the task, it sorts and compiles the elements, but I feel that my programm looks like s*it code and the output is wrong :( <br>, if I will have time today, i will work today
+->Probably, I completed the task, it sorts and compiles the elements, but I feel that my programm looks like s*it code and the output is wrong😭 <br>, if I will have time today, i will work today
 
 
 ##JAVA EXERCISE
