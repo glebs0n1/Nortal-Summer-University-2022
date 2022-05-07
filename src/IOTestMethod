@@ -1,0 +1,49 @@
+//Try to read file and create algorithm to move inside the file elements to the right positions 
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+
+        String gameFile = "input.txt";
+
+        char[][] board = readFile(gameFile);
+        game(board);
+    }
+
+    private static void game(char[][] board) {
+    }
+
+    private static char[][] readFile(String gameFile) throws IOException {
+        int row = 0;
+        String line = " ";
+        File file = new File(gameFile);
+        Scanner scanner = new Scanner(file);
+        List<String> read = new ArrayList<>();
+        while (scanner.hasNextLine()) {
+            line = scanner.nextLine();
+            read.add(line);
+            ++row;
+        }
+
+        int column = read.get(0).toCharArray().length;
+        char[][] board = new char[row][column];
+
+        for (int i = 0; i < board.length; i++) {
+            for (int j = 0; j < board[i].length; j++) {
+                board[i][j] = read.get(i).charAt(j);
+            }
+
+            for (int m = 0; m < board.length; m++) {
+                for (int n = 0; n < board[m].length; n++) {
+                    System.out.print(board[m][n]);
+                }
+                System.out.println();
+            }
+        }
+        return board;
+    }
+}
